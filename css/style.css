@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+outline: none;
+box-sizing: border-box;
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.wallpapaer{
+    width: 1920px;
+    height: 992px;
+    left: 0px;
+    top: 0px;
+    background: #eaeeef;
+    box-shadow: 0px 4 px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header{
+    display: flex;
+}
+
+.header__logo{
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+.li{
+    display: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #195557;
+}
+
+
